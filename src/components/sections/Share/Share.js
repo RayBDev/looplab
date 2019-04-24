@@ -1,4 +1,5 @@
 import React from "react"
+import { Element } from "react-scroll"
 
 import "./Share.css"
 import Img from "../../../images/share-section1.jpg"
@@ -8,7 +9,7 @@ const Share = () => {
     <>
       {/* SHARE HEAD */}
       <section id="share-head-section" class="bg-primary">
-        <div className="container">
+        <Element className="container" name="share-head-section">
           <div className="row">
             <div className="col text-center py-5">
               <h1 className="display-4">Share</h1>
@@ -22,7 +23,7 @@ const Share = () => {
               </a>
             </div>
           </div>
-        </div>
+        </Element>
       </section>
 
       {/* SHARE SECTION */}

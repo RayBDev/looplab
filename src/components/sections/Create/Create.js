@@ -1,4 +1,5 @@
 import React from "react"
+import { Element } from "react-scroll"
 
 import "./Create.css"
 import Img from "../../../images/create-section1.jpg"
@@ -8,7 +9,7 @@ const Create = () => {
     <>
       {/* CREATE HEAD */}
       <section id="create-head-section" class="bg-primary">
-        <div className="container">
+        <Element className="container" name="create-head-section">
           <div className="row">
             <div className="col text-center py-5">
               <h1 className="display-4">Create</h1>
@@ -22,7 +23,7 @@ const Create = () => {
               </a>
             </div>
           </div>
-        </div>
+        </Element>
       </section>
 
       {/* CREATE SECTION */}

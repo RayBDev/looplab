@@ -1,4 +1,5 @@
 import React from "react"
+import { Element } from "react-scroll"
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
@@ -11,7 +12,7 @@ import "./Header.css"
 const header = () => {
   return (
     <header id="home-section">
-      <div className="dark-overlay">
+      <Element className="dark-overlay" name="home-section">
         <Container className="home-inner">
           <Row>
             <Col lg={8} className="d-none d-lg-block">
@@ -92,7 +93,7 @@ const header = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </Element>
     </header>
   )
 }

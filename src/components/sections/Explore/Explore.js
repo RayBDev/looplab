@@ -1,4 +1,5 @@
 import React from "react"
+import { Element } from "react-scroll"
 
 import "./Explore.css"
 import Img from "../../../images/explore-section1.jpg"
@@ -8,7 +9,7 @@ const Explore = () => {
     <>
       {/* EXPLORE HEAD */}
       <section id="explore-head-section">
-        <div className="container">
+        <Element className="container" name="explore-head-section">
           <div className="row">
             <div className="col text-center py-5">
               <h1 className="display-4">Explore</h1>
@@ -22,7 +23,7 @@ const Explore = () => {
               </a>
             </div>
           </div>
-        </div>
+        </Element>
       </section>
 
       {/* EXPLORE SECTION */}
