@@ -21,7 +21,7 @@ const Share = () => (
     render={data => (
       <>
         {/* SHARE HEAD */}
-        <section id="share-head-section" class="bg-primary">
+        <section id="share-head-section" className="bg-primary">
           <Element className="container" name="share-head-section">
             <div className="row">
               <div className="col text-center py-5">
@@ -31,7 +31,7 @@ const Share = () => (
                   nulla aliquid velit obcaecati modi aut temporibus quibusdam
                   eius illum facere!
                 </p>
-                <a href="#" className="btn btn-outline-light">
+                <a href="/" className="btn btn-outline-light">
                   Find Out More
                 </a>
               </div>

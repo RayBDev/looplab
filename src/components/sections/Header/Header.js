@@ -85,7 +85,7 @@ const header = () => {
                     <input
                       type="submit"
                       value="Sign Up"
-                      class="btn btn-outline-light btn-block"
+                      className="btn btn-outline-light btn-block"
                     />
                   </Form>
                 </Card.Body>
