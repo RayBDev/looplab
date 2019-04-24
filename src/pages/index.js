@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Header from "../components/sections/Header/Header"
 import Explore from "../components/sections/Explore/Explore"
 import Create from "../components/sections/Create/Create"
+import Share from "../components/sections/Share/Share"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <main>
       <Explore />
       <Create />
+      <Share />
     </main>
   </Layout>
 )
