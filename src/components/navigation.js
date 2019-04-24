@@ -1,15 +1,16 @@
 import React from "react"
+import PropTypes from "prop-types"
 
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import { Link } from "react-scroll"
 
-const navigation = () => {
+const Navigation = ({ siteTitle }) => {
   return (
     <Navbar expand="sm" bg="dark" variant="dark" fixed="top">
       <Container>
-        <Navbar.Brand href="index.html">LoopLAB</Navbar.Brand>
+        <Navbar.Brand href="index.html">{siteTitle}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" as="ul">
@@ -72,4 +73,8 @@ const navigation = () => {
   )
 }
 
-export default navigation
+Navigation.propTypes = {
+  siteTitle: PropTypes.string.isRequired,
+}
+
+export default Navigation
