@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/looplab",
   siteMetadata: {
     title: `LoopLAB`,
     description: `Social Media Bootstrap template created with Gatsby`,
